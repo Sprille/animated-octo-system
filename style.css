@@ -1,0 +1,205 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family:sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+
+body {
+	background:url(images/home_bg.jpg);
+	background-size: 100%;
+	color: #757780;
+	line-height: 25px;
+	max-height: 100%;
+
+}
+
+
+button, input {
+	margin: 15px 0;
+	width: 300px;
+	padding: 10px;
+	border-radius: 2px;
+	outline: none;
+}
+
+
+input {
+	border: 1px solid #F5F5F5;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+button {
+	background: #593EC2;
+	color: #FFF;
+	border: 0;
+}
+
+.header{
+	width:300px;
+	height: auto;
+	margin:50px;
+}
+
+.wrapper {
+	display: inline-block;
+	float:right;
+	width: 480px;
+	border-radius: 2px;
+	margin:-140px 300px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.logo{
+	cursor: pointer;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.menu {
+	margin: 0px;
+}
+
+.menu a {
+	display: inline-block;
+	
+}
+
+.menu a, .menu span {
+	color:white;
+	padding:17px;
+	border-radius:0px 0px 3px 3px;
+}
+
+
+.menu a:hover {
+	background: #74c7d5;
+	color: #FFF;
+}
+
+
+.menu span {
+	display: none;
+}
+
+
+.padding {
+	padding: 30px;
+	text-align: center;
+	margin:200px auto;
+	height:0px;
+}
+
+@media screen and (max-width: 800px) {
+	
+	.wrapper {
+		margin:0px auto;
+		border: 0;
+		width: 100%;
+	}
+	
+	.menu{
+		text-align: center;
+	}
+
+	button, input {
+		width: 100%;
+	}
+
+	.menu a {
+		display: none;
+	}
+
+	.menu span {
+		display: block;
+	}
+	.header{
+		padding: 0px;
+		margin: 0px;
+		width:0px;
+		height: 0px;
+	}
+	.arrow-left{
+	float: left;
+	margin:50px  auto;
+	width:3%;
+	}	
+
+	.arrow-right{
+	float: right;
+	margin:-50px;
+	width:3%;
+	}
+	
+	.padding img{
+		width:80%;
+	}
+	.target-slide{
+	
+}
+
+
+
+}
+/*ENDMEDIA*/
+
+
+.arrow-left{
+	float: left;
+	margin:50px  auto;
+}
+
+.arrow-right{
+	float: right;
+	margin:50px  auto;
+}
+
+.target {
+	text-align: center;
+    list-style: none;
+   
+}
+
+.target li {
+    float: left;
+    width: 13px;
+    height: 13px;
+    margin-right: 15px;
+    font-size: 0;
+    border-radius: 50%;
+}
+
+.target-slide{
+	float: none;
+	display:inline-block;
+	width:200px;
+	height:50px;
+	margin:140px;
+}
+
+.target{
+	margin:5px 55px;
+	text-align: center;
+}
+
+.target-slide-1{
+	background:#74c7d5;
+	cursor: pointer;
+}
+
+.target-slide-2, .target-slide-3{
+	background: #cbc5b8;
+	cursor: pointer;
+}
